@@ -1,0 +1,7 @@
+# macOS
+.DS_Store
+
+# Sensitive files — never commit these
+*.pem
+*.key
+.env

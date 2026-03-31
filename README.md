@@ -5,7 +5,7 @@ MacBook setup for a new machine.
 ## Setup
 
 ```bash
-git clone https://github.com/<you>/dotfiles.git ~/dotfiles
+git clone https://github.com/codeofdiego/dotfiles.git ~/dotfiles
 cd ~/dotfiles
 # Edit Brewfile to remove unwanted entries, then:
 bash install.sh

@@ -12,8 +12,12 @@ elif [ -f "$ANDROID_HOME/tools/bin/sdkmanager" ]; then
   SDKMANAGER="$ANDROID_HOME/tools/bin/sdkmanager"
 else
   echo "    ERROR: sdkmanager not found under $ANDROID_HOME"
-  echo "    Make sure Android Studio is installed and you have launched it at least once"
-  echo "    to complete the initial SDK setup, then re-run this script."
+  echo ""
+  echo "    To fix this, open Android Studio and install the Command-line Tools:"
+  echo "    Settings > Languages & Frameworks > Android SDK"
+  echo "    > SDK Tools tab > check 'Android SDK Command-line Tools (latest)' > Apply"
+  echo ""
+  echo "    Then re-run: bash ~/dotfiles/scripts/android.sh"
   exit 1
 fi
 

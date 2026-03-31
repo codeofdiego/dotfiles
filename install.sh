@@ -22,7 +22,7 @@ echo "    1. Open Android Studio (just installed via Homebrew)"
 echo "    2. Complete the setup wizard — it will download the Android SDK"
 echo "    3. Once the wizard finishes, come back here and press Enter to continue"
 echo ""
-read -rp "    Press Enter when Android Studio setup is complete..." _
+read -rp "    Press Enter when Android Studio setup is complete..." _ </dev/tty
 echo ""
 bash "$DOTFILES_DIR/scripts/android.sh"
 echo ""

@@ -21,6 +21,8 @@ else
   exit 1
 fi
 
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/zulu-17.jdk/Contents/Home
+
 echo "    Installing SDK components..."
 yes | "$SDKMANAGER" \
   "platforms;android-35" \

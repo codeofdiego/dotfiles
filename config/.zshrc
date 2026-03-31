@@ -13,6 +13,7 @@ export NVM_DIR="$HOME/.nvm"
 
 # Android
 export ANDROID_HOME="$HOME/Library/Android/sdk"
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/zulu-17.jdk/Contents/Home
 export PATH="$ANDROID_HOME/emulator:$ANDROID_HOME/platform-tools:$ANDROID_HOME/tools:$PATH"
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.

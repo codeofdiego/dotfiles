@@ -70,8 +70,8 @@ All scripts are idempotent — they check for existing installations before acti
 
 1. Source nvm (installed via Brewfile)
 2. `nvm install --lts && nvm use --lts && nvm alias default node`
-3. `npm install -g react-native-cli`
 
+React Native is used via Expo (`npx create-expo-app`, `npx expo`) — no global CLI install needed.
 iOS support comes from cocoapods in the Brewfile — no extra script needed.
 
 ---
